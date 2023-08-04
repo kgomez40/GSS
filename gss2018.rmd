@@ -162,8 +162,6 @@ boxplot(WORDSUM~DEGREE,data=GSSdata)
 
 From the box plot it appears that, the students in less than high school have a median less than that of the students in high school and in Bachelors.
 
-
-
 #### Numerical Descriptive Results
 
 <!--Numerical results go here. Use the numerical results to describe the patterns if any that exist in the data as focused toward the research question!-->
