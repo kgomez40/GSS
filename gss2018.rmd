@@ -104,6 +104,12 @@ There is a Cat vs. Num. Since the difference in years is numerical & if they did
 
 <!--Graphical results here.  Make sure to show your code.  Provide appropriate labels for axes, giving units if possible, and provide a good title for the graph, too.  Use the graphical results to describe the patterns if any that exist in the data as focused toward the research question!-->
 
+```{r}
+plot(EDUC~VOTE16,data=GSSdata)
+```
+
+The median for the voted category is 15. The median for the did not vote category is 13. There are 3 outliers in the did not vote category. The 1.5 IQR for the voted box plot is a lot lengthier than the did not vote. The IOR for the Voted category is much higher than the did not voted. Currently, there is clearly a difference between the two.
+
 #### Numerical Descriptive Results
 
 <!--Numerical results go here. Use the numerical results to describe the patterns if any that exist in the data as focused toward the research question!-->
