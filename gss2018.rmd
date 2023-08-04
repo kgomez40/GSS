@@ -156,6 +156,14 @@ WORDSUM is a numerical variable, DEGREE is a categorical variable.
 
 <!--Graphical results here.  Make sure to show your code.  Provide appropriate labels for axes, giving units if possible, and provide a good title for the graph, too.  Use the graphical results to describe the patterns if any that exist in the data as focused toward the research question!-->
 
+```{r}
+boxplot(WORDSUM~DEGREE,data=GSSdata)
+```
+
+From the box plot it appears that, the students in less than high school have a median less than that of the students in high school and in Bachelors.
+
+
+
 #### Numerical Descriptive Results
 
 <!--Numerical results go here. Use the numerical results to describe the patterns if any that exist in the data as focused toward the research question!-->
