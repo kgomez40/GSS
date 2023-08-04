@@ -84,9 +84,15 @@ The p-value for table1 is 0.02022. The chi square statistic is 5.3932 with a deg
 
 Is there a difference in years of education (EDUC) between the those who did or did not vote in 2012 (VOTE12)?
 
+$H_0$: There is no difference between years of education between those who did or didn't vote in 2012.
+
+$H_A$: There is a difference between years of education between those who did or didn't vote in 2012.
+
 ## Methods
 
 <!--Decide on your methods:  use "variable analysis" or other appropriate descriptors.  Make sure to choose at least one graphical method and at least one numerical method.!-->
+
+There is a Cat vs. Num. Since the difference in years is numerical & if they did or didn't vote is categorical. We will use a box plot, favstats, and a t.test for this question.
 
 ##Results
 
