@@ -114,6 +114,12 @@ The median for the voted category is 15. The median for the did not vote categor
 
 <!--Numerical results go here. Use the numerical results to describe the patterns if any that exist in the data as focused toward the research question!-->
 
+```{r}
+favstats(EDUC~VOTE16,data=GSSdata)
+```
+
+The voted category has a mean of 15.625 and a median of 15. The did not vote category has a mean of 13.68 and a median is 13. This clearly states that there is a difference between the two even more. The n value for the voted category is 125. The did not vote category is 50.
+
 ### Inferential Results
 
 <!--State hypothesis clearly.  Make sure your discussion of the inferential test covers all the aspects that the test output produces, such as test statistic, p-value etc.  Make a decision about the null hypothesis, explain the assumptions on which the selected test/procedure was based, and why the chosen procedure satisfys the assumptions and is appropriate to answer the research question!-->
